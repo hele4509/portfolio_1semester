@@ -1,4 +1,90 @@
+
+/************ OM SIDEN ************/
+
+.cv_coloumn p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1vw;
+    margin-bottom: 35px;
+
+}
+
+#cv_1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1vw;
+    margin-bottom: 25px;
+
+}
+
+#cv_2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1vw;
+    margin-bottom: 35px;
+
+}
+
+b {
+    font-weight: bolder;
+}
+
+#sectionwrapper {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cv_coloumn {
+    width: 50%;
+    flex-basis: 300px;
+    flex-grow: 1;
+    position: relative;
+    top: 50px;
+    margin: 0 50px;
+
+}
+
+#cv_2 {
+    order: 1;
+}
+
+#cv_1 {
+    order: 2;
+}
+
+#cv_text {
+    text-align: center;
+    top: 20px;
+    position: sticky;
+
+}
+
+#cv_pic {
+    background-image: url(glitter.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: bottom;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    z-index: 2;
+    border: 2px solid white;
+    margin-bottom: 50px;
+    margin: auto;
+}
+
+
+
+/************ FOOTER ************/
 footer {
+    text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+
 
 }
