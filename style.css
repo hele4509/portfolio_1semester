@@ -1,3 +1,77 @@
+/************ PORTFOLIO SIDEN ************/
+/************ PORTFOLIO GENERELT ************/
+
+#portfolio_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#portfolio_wrapper p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1vw;
+    margin-bottom: 35px;
+}
+
+
+
+/************ PORTFOLIO STREET STYLE ************/
+
+
+#info_streetstyle ,
+.pic_frame {
+    width: 100%;
+    width: 100%;
+
+}
+
+#info_streetstyle ,
+.pic {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+
+}
+
+
+/************ PORTFOLIO EVERYDAY ************/
+.video {
+    width: 56vw;
+    height: 55vw;
+    padding-top: 19px;
+    display: flex;
+
+
+}
+
+.video iframe {
+    width: 100%;
+}
+
+
+
+/************ PORTFOLIO Pritvat snak ************/
+
+#info_privatsnak ,
+.pic {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+#info_privatsnak ,
+.pic_frame {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
 
 /************ OM SIDEN ************/
 
@@ -27,7 +101,6 @@ b {
 }
 
 #sectionwrapper {
-    background-color: red;
     width: 100%;
     height: 100%;
     display: flex;
@@ -61,9 +134,9 @@ b {
 }
 
 #cv_pic {
-    background-image: url(glitter.jpg);
+    background-image: url(tern.jpg);
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: 100%;
     background-position: bottom;
     width: 30vw;
     height: 30vw;
@@ -77,6 +150,7 @@ b {
 
 
 /************ FOOTER ************/
+
 footer {
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -86,5 +160,71 @@ footer {
     height: 100%;
     text-decoration: none;
 
+}
+
+/************ NAVIGATION ************/
+nav {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+nav .content a {
+    display: inline-flex;
+    padding: 4px 28px;
+    border: 2px solid white;
+    border-radius: 0px;
+    font-family: 'ryeregular';
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 500px) {
+    nav .content a {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: .2em;
+    }
+}
+
+.dropdown > ul {
+    display: none;
+    position:relative;
+    padding: 5px px;
+    z-index: 1;
+    padding: 1em;
+}
+.dropdown > ul li{
+    white-space: nowrap;
+    padding: 0 2em;
+}
+
+.dropdown:hover > ul {
+    display: block;
+}
+
+/************ BODY ************/
+
+body {
+    background-color: black;
+}
+
+h1 ,
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vw;
+    font-weight: 100%;
+    color: white;
+}
+
+p {
+    color: white;
 
 }
+
+
