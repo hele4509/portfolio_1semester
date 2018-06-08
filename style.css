@@ -37,14 +37,12 @@
 }
 
 
-/************ PORTFOLIO EVERYDAY ************/
+/************ PORTFOLIO EVERYDAY + McKluud ************/
 .video {
     width: 56vw;
     height: 55vw;
     padding-top: 19px;
     display: flex;
-
-
 }
 
 .video iframe {
